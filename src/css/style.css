@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Arial Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url("src/font/arial-cufonfonts-webfont/ARIAL.woff");
+}
+body{
+    font-family:'Arial Regular';
+    background-color: aqua;
+}
+.title{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: 600;
+}
+header{
+    background-color: black;
+}
+header nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 30px 0;
+}
+header nav ul a{
+    color: aqua;
+}
+header nav ul a:hover{
+    color:blueviolet
+}
+.part1{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+.part1 h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.part1 li{
+    margin-top: 10px;
+}
+.part1 img{
+    position: absolute;
+    left: 90%;
+    top: 70%;
+    transform:translate(-50%, -50%);
+    width: 250px;
+    height: 250px;
+}
+.part2,.part3{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+}
+.part2{
+
+}
+.info1,.info2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+.info1 p,.info2 p{
+    width: 40%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+}
+.info1 h3{
+    margin-left: 250px;
+    margin-bottom: 20px;
+}
+.info2 h3{
+    margin-right: 250px;
+    margin-bottom: 20px;
+}
+.info2{
+    align-items: flex-end;
+}
