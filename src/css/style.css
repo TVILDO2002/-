@@ -6,11 +6,10 @@
 }
 body{
     font-family:'Arial Regular';
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 .title{
     text-align: center;
-    margin-top: 50px;
     font-size: 25px;
     font-weight: 600;
 }
@@ -30,6 +29,11 @@ header nav ul a:hover{
     color:blueviolet
 }
 .part1{
+    background-image: url(../img/background/back.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: 70%;
     position: relative;
     height: 100vh;
     display: flex;
@@ -37,6 +41,18 @@ header nav ul a:hover{
     align-items: center;
     flex-direction: column;
     gap: 25px;
+    color: white;
+    font-weight: 700;
+}
+.members{
+    margin-top: 75px;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 25px 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .part1 h1{
     font-size: 40px;
