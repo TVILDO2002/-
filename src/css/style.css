@@ -7,6 +7,7 @@
 body{
     font-family:'Arial Regular';
     /* background-color: aqua; */
+    line-height: 1.5;
 }
 .title{
     text-align: center;
@@ -14,7 +15,7 @@ body{
     font-weight: 600;
 }
 header{
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
 header nav ul{
     display: flex;
@@ -23,30 +24,32 @@ header nav ul{
     padding: 30px 0;
 }
 header nav ul a{
-    color: aqua;
+    color: rgb(3, 3, 3);
 }
 header nav ul a:hover{
     color:blueviolet
 }
 .part1{
-    background-image: url(../img/background/back.jpeg);
+    padding: 100px 0;
+    background-image: url(../img/background/group-1825509.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    backface-visibility: 70%;
     position: relative;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 25px;
-    color: white;
+    color: #035096;
     font-weight: 700;
 }
 .members{
+    background-color: Limegreen;
     margin-top: 75px;
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid Limegreen;
+    z-index: 3;
+    font-weight: bolder;
     padding: 25px 30px;
     border-radius: 10px;
     display: flex;
@@ -70,33 +73,76 @@ header nav ul a:hover{
     height: 250px;
 }
 .part2,.part3{
-    height: 100vh;
     display: flex;
     flex-direction: column;
-    padding: 0 50px;
+    padding: 45px 50px;
 }
 .part2{
-
+    margin-bottom: 150px;
+    background-image: url(../img/background/642ae683e98d3a5695fd151c_Air\ Quality\ Monitor\ In\ Office.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.info1,.info2{
-    display: flex;
-    flex-direction: column;
-    margin-top: 80px;
+.part2 h3{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 30px;
+    color: #000000;
 }
-.info1 p,.info2 p{
-    width: 40%;
+.part2 h2{
+    color: #000000;
+    font-size: 40px;
+    margin-top: 45px;
+    margin-bottom: 50px;
+}
+.info1 p{
+    width: 550px;
     border: 1px solid black;
     border-radius: 10px;
-    padding: 20px;
+    padding: 25px 10px;
+    margin-top: 5px;
+    background-color: #2E2D4D;
+    color: #fff;
 }
-.info1 h3{
-    margin-left: 250px;
-    margin-bottom: 20px;
+.info2 p{
+    width: 450px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 25px 10px;
+    margin-top: 15px;
+    background-color: #2E2D4D;
+    color: #fff;
 }
-.info2 h3{
-    margin-right: 250px;
-    margin-bottom: 20px;
+.wrapper-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 40px auto;
+}
+.wrapper-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+}
+.wrapper-1 img{
+    height: 250px;
+    height: 400px;
+    z-index: 10;
+}
+.info1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.device-pic{
+    background-color: #2E2D4D;
+    border-radius: 50px;
 }
 .info2{
-    align-items: flex-end;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
