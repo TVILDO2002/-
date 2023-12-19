@@ -232,10 +232,11 @@ header nav ul a:hover{
 }
 .part5{
     background-color: rgb(171, 234, 255);
+
 }
 .part5-main{
     display: flex;
-
+    gap: 100px;
 }
 .part5-main img{
 
