@@ -37,8 +37,10 @@ body{
 }
 .title{
     text-align: center;
-    font-size: 25px;
-    font-weight: 600;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 10px auto;
+    padding: 10px auto;
 }
 header{
     background-color: rgb(255, 255, 255);
@@ -256,9 +258,13 @@ header nav ul a:hover{
 }
 .items-1 p{
     background-color: rgb(218, 218, 34);
+    color: rgb(5, 5, 5);
+    font-weight: 600;
 }
 .items-2 p{
     background-color: rgb(70, 30, 120);
+    color: white;
+    font-weight: 600;
 }
 
 .part5{
@@ -297,11 +303,7 @@ header nav ul a:hover{
     padding: 10px;
 }
 .part6{
-   
-}
-.part6-header{
-    background: rgb(218, 218, 34);
-    
+   background-color: rgb(218, 218, 34);
 }
 .weeks-wrapper{
     display: flex;
