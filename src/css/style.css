@@ -232,6 +232,7 @@ header nav ul a:hover{
 }
 .part5{
     background-color: rgb(171, 234, 255);
+    padding-bottom: 20px;
 
 }
 .part5-main{
@@ -245,6 +246,8 @@ header nav ul a:hover{
     grid-template-columns: 300px repeat(1, 300px);
     column-gap: 325px;
     row-gap: 125px;
+    padding: 20px auto; 
+    margin: 45px auto;
 }
 .member{
     background-color: rgb(70, 30, 120);
@@ -263,11 +266,11 @@ header nav ul a:hover{
     padding: 10px;
 }
 .part6{
-   padding-top: 20px;
+   
 }
 .part6-header{
     background: rgb(218, 218, 34);
-    margin-top: 15px;
+    
 }
 .weeks-wrapper{
     display: flex;
