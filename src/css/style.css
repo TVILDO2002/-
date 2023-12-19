@@ -238,13 +238,11 @@ header nav ul a:hover{
     display: flex;
     gap: 100px;
 }
-.part5-main img{
 
-}
 .members-wrapper{
     display: grid;
     justify-content: center;
-    grid-template-columns: 200px repeat(1, 200px);
+    grid-template-columns: 300px repeat(1, 300px);
     column-gap: 325px;
     row-gap: 125px;
 }
@@ -254,8 +252,15 @@ header nav ul a:hover{
     border-radius: 10px;
     color: white;
 }
+.member h3{
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+}
+
 .member ul{
     list-style-type:square;
+    padding: 10px;
 }
 .part6{
    padding-top: 20px;
