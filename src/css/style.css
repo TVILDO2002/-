@@ -310,6 +310,7 @@ header nav ul a:hover{
 }
 .weeks-wrapper img{
     width: 40%;
+    height: 100%;
 }
 .weeks{
     display: flex;
@@ -339,4 +340,58 @@ header nav ul a:hover{
     justify-content: center;
     align-items: center;
     list-style-type: disc;
+}
+.part7{
+    display: flex;
+    justify-content: space-between;
+    background-color:#92e5e488
+}
+.part7 img{
+    width: 40%;
+}
+.part7 ul{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    gap: 25px;
+}
+.part7 ul li{
+    background-color: rgb(34, 72, 224);
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+}
+.part7 ul li:last-child{
+    font-weight: bold;
+    font-size: 14;
+}
+.part8{
+    display: flex;
+    justify-content: space-between;
+    background-color:#bd9d5388
+}
+.part8 img{
+    width: 40%;
+}
+.part8 ul{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    gap: 25px;
+}
+.part8 ul li a{
+    background-color: rgb(34, 72, 224);
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+}
+.part8 ul li:last-child a{
+    font-weight: bold;
+    font-size: 14;
 }
